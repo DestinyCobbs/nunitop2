@@ -1,0 +1,265 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.fontFam {
+    font-family: 'Nunito', sans-serif;
+/* Menu Br */
+}
+.menuBar {
+    position:fixed;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 3;
+    height: fit-content;
+}
+ul {
+   padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+
+}
+.logo { 
+    color: rgb(243, 136, 170);
+    font-size: 30px;
+    font-weight: bold ;
+}
+/* Title */
+
+.recTitle {
+    background-color: rgb(161, 138, 192);
+    width: 100%;
+    height: 417px;
+    z-index: 2;
+    top: 70px;
+
+    text-align: center;
+    color: rgb(241,242,242);
+    padding: 200px;
+    font-size: 50px;
+}
+
+/* Introduction */
+
+.introTitle{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 530px;
+    top: 120px;
+    z-index: 1;
+}
+
+.circleBeg{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(243, 136, 170);
+    border-radius:50%;
+    opacity:54%;
+    position: relative;
+    z-index: -1;
+    left: -430px;
+    top: -70px;
+}
+
+.introParagraphRec {
+    width: 100%;
+    height: fit-content;
+    border: 7pt solid white;
+    background-color: rgb(225,243,249);
+    border-radius: 25px;
+    position: relative;
+    padding: 35px;
+    left: 550px;
+    top: 150px;
+    z-index: 1;
+
+   text-align: justify ;
+}
+
+.recButton{
+
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(161, 138, 192);
+    border-radius: 25px;
+    position: relative;
+    padding: 20px;
+    left: 1100px ;
+    top: 230px;
+    z-index: 1;
+
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Charcters */
+.charcterSec{
+    background-color: rgb(161, 138, 192);
+    width: 100%;
+    height: 550px;
+    z-index: 2;
+   
+}
+
+.chracterTitle{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+}
+
+.charcters {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 65px;
+
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.weightRe{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.weightCharcters {
+    width: 90px;
+    height: 90px;
+    border: 2pt solid white;
+    background-color: rgb(225,243,249);
+    border-radius: 10px;
+    display: inline-block;
+
+
+    color: rgb(243, 136, 170);
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.weightCharcters2 {
+    width: 100%;
+    height: fit-content;
+    border: 7pt solid white;
+    background-color: rgb(225,243,249);
+    border-radius: 25px;
+    position: relative;
+    padding: 35px;
+    left: 550px;
+    top: 150px;
+    z-index: 1;
+
+}
+.weightCharcters3 {
+
+}.weightCharcters4 {
+
+}.weightCharcters5 {
+
+}.weightCharcters6{
+
+}
+.weightCharcters7 {
+
+}
+.weightCharcters8 {
+
+}
+
+/*  Display */
+
+.displayTitle{
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 530px;
+    top: 120px;
+    z-index: 1;
+}
+
+.circlemiddle{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(243, 136, 170);
+    border-radius:50%;
+    opacity:54%;
+    position: relative;
+    z-index: -1;
+    left: 600px;
+    top: -70px;
+}
+
+.displytext1 {
+    position: relative;
+    left: 10px;
+    top: 120px;
+    
+    font-size: 200px;
+
+}
+/* Body Text */
+.bodyTextSec{
+    background-color: rgb(161, 138, 192);
+    width: 100%;
+    height: 900px;
+    z-index: 2;
+    position: relative;
+   
+}
+.bodyTextSec2{
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    z-index: 2;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bodyText1 {
+    font-size: 15px;
+    margin: 10px;
+    
+}
+.bodyText2 {
+    font-size: 11px;
+    color: rgb(243, 136, 170);
+    font-style: italic;
+    margin: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.bodyText3 {
+    font-size: 15px;
+}
